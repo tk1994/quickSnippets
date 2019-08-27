@@ -1,0 +1,329 @@
+.base-container {
+  width: 100%;
+  background-color: #F2F2F2;
+
+  .view-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: #FFFFFF;
+    padding: 29px;
+
+    .guttered-container {
+      .header {
+        border-bottom: 1px solid #B7B7B7;
+        padding-bottom: 20.25px;
+
+        .company-logo {
+          height: 13.9px;
+          width: 135.27px;
+        }
+      }
+      
+      .name-container {
+        padding-top: 11.25px;
+        padding-left: 0.25px;
+        padding-bottom: 12.25px;
+        border-bottom: 1px solid #B7B7B7;
+
+        .name-text {
+          color: #1D1D1D;
+          font-family: "Open Sans";
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 16px;
+        }
+      }
+
+      .loan-id-container {
+        padding-top: 11.25px;
+        padding-bottom: 12.25px;
+        border-bottom: 1px solid #B7B7B7;
+
+        .loan-text-container {
+          .loan-text {
+            color: #999999;
+            font-family: "Open Sans";
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 12px;
+          }
+
+          .loan-id-text {
+            color: #1D1D1D;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 14px;
+          }
+        }
+      }
+
+      .body-container {
+        padding-top: 14.25px;
+        padding-bottom: 15.75px;
+        border-bottom: 1px solid #B7B7B7;
+
+        .main-text-container {
+          padding-right: 76px;
+
+          .main-text {
+            color: #484848;
+            font-family: "Open Sans";
+            font-size: 13px;
+            line-height: 21px;
+          }
+        }
+      }
+
+      .steps-container {
+        display: flex;
+        margin-top: 36px;
+
+        .steps-left {
+          display: flex;
+          flex-direction: column;
+          width: 45px;
+          padding-top: 1px;
+
+          .step-number {
+            color: #294E9B;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #294E9B;
+            border-radius: 50%;
+            padding: 5px;
+            text-align: center;
+          }
+
+          .vertical-step-line-container {
+            .vertical-step-line {
+              margin-left: auto;
+              margin-right: auto;
+              height: 100px;
+              width: 1px;
+              border: 1px dashed #294E9B;
+            }
+          }
+        }
+
+        .steps-right {
+          display: flex;
+          flex-direction: column;
+          margin-left: 16px;
+
+          .step-text {
+            color: #484848;
+            font-family: "Open Sans";
+            font-size: 14px;
+            line-height: 21px;
+          }
+
+          .step-1-container {
+            .download-manual-container {
+              padding: 12.5px 16.25px;
+              width: 228px;
+              border: 1px solid #FF7000;
+              border-radius: 4px;
+              box-shadow: 0 4px 4px 0 rgba(207,107,43,0.1);
+              margin-top: 11.75px;
+              display: flex;
+
+              .down-arrow-container {
+                border-right: 1px solid #FF7000;
+                padding-right: 16px;
+              }
+
+              .orange-step-text {
+                color: #FF7000;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 16px;
+                text-align: center;
+                margin-left: 14px;
+              }
+            }
+          }
+
+          .step-2-container {
+            margin-top: 32.75px;
+
+            .whatsapp-details-container {
+              margin-top: 12.05px;
+              display: flex;
+
+              .whatsapp-number {
+                margin-left: 16px;
+                color: #484848;
+                font-family: "Open Sans";
+                font-size: 16px;
+                line-height: 24px;
+              }
+            }
+          }
+
+          .step-3-container {
+            margin-top: 54.55px;
+
+            .courier-details-container {
+              margin-top: 16px;
+              display: flex;
+              width: 456px;
+              padding: 12px;
+              border: 0.5px solid #E0E0E0;
+              background-color: #F8F8F8;
+              box-shadow: 0 -1px 0 0 rgba(0,0,0,0.2), 0 1px 0 0 rgba(0,0,0,0.08);
+
+              .courier-details {
+                color: #1D1D1D;
+                font-family: "Open Sans";
+                font-size: 14px;
+                line-height: 21px;
+              }
+            }
+          }
+        }
+      }
+
+      .regards-container {
+        margin-top: 36px;
+        color: #1D1D1D;
+        font-family: "Open Sans";
+        font-size: 14px;
+        line-height: 24px;
+
+        .phone-icon {
+          margin-right: 10px;
+        }
+      }
+
+      .help-container {
+        padding-top: 15.75px;
+        padding-bottom: 17.75px;
+        border-bottom: 1px solid #B7B7B7;
+
+        .help-header {
+          color: #1D1D1D;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 19px;
+        }
+
+        .help-contact {
+          margin-top: 8px;
+          color: #343434;
+          font-family: "Open Sans";
+          font-size: 12px;
+          line-height: 17px;
+        }
+
+        .help-timings {
+          color: #343434;
+          font-family: "Open Sans";
+          font-size: 11px;
+          font-weight: 300;
+          line-height: 15px;
+        }
+      }
+
+      .footer-container {
+        padding-top: 15.75px;
+        padding-bottom: 44px;
+
+        .social-text {
+          display: inline-block;
+          color: #999999;
+          font-family: "Open Sans";
+          font-size: 12px;
+          line-height: 20px;
+          margin-right: 14px;
+        }
+
+        .social-icon {
+          display: inline-block;
+          margin-right: 12px;
+
+          img {
+            height: 24px;
+            width: 24px;
+          }
+        }
+      }
+
+      .lk-header-container {
+        margin-top: 19px;
+        font-family: "Open Sans";
+        font-size: 12px;
+        line-height: 17px;
+        color: #999999;
+
+        .lk-orange {
+          color: #FE7A3F;
+          font-weight: 600;
+        }
+      }
+
+      .address-container {
+        margin-top: 4px;
+        color: #999999;
+        font-family: "Open Sans";
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .base-container {
+    .view-container {
+      width: 360px;
+
+      .guttered-container {
+        .body-container {
+          .main-text-container {
+            padding-right: 0;
+
+            .main-text {
+              font-size: 14px;
+            }
+          }
+
+          .steps-container {
+            .steps-left {
+              width: 75px;
+
+              .vertical-step-line-container {
+                .vertical-step-line {
+                  height: 121px;
+                }
+              }
+            }
+
+            .steps-right {
+              .step-3-container {
+                .courier-details-container {
+                  width: 258px;
+                }
+              }
+            }
+          }
+        }
+
+        .footer-container {
+          .social-container {
+            .social-icon {
+              img {
+                height: 28px;
+                width: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
